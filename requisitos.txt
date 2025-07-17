@@ -1,0 +1,56 @@
+Descripción del Proyecto
+El objetivo de este proyecto es crear un sitio web personal que muestre tus habilidades, experiencias e intereses. El sitio web debe ser visualmente atractivo y fácil de navegar, además de proporcionar información relevante sobre ti y tu trayectoria. El sitio debe estar creado íntegramente con HTML y CSS, sin incluir código JavaScript.
+
+Ejemplo
+https://appbrewery.github.io/capstone-2-example
+
+Entregables:
+1- Un archivo HTML para la estructura del sitio web
+
+2- Un archivo CSS para el estilo del sitio web
+
+3- Cualquier recurso adicional (por ejemplo, imágenes) utilizado en el sitio web
+
+
+
+Características:
+* Una sección principal que ofrece una breve introducción sobre ti y tu trayectoria.
+
+* Una página de currículum que incluye tu formación académica, experiencia laboral, habilidades y otra información relevante (puedes enlazar al proyecto Capstone 1).
+
+* Una sección que muestra cualquier proyecto o trabajo que hayas realizado anteriormente.
+
+* Una sección "Sobre mí" que proporciona información adicional sobre ti y tus intereses.
+
+* Una sección de contacto que incluye información para que los usuarios puedan ponerse en contacto contigo. Requisitos técnicos
+Todo el código HTML debe ser válido y seguir el marcado semántico adecuado.
+
+* Todo el código CSS debe ser válido y seguir las mejores prácticas de nomenclatura y organización.
+
+* El sitio web debe ser adaptable y funcionar en diferentes tamaños de pantalla y dispositivos.
+
+* Todas las imágenes utilizadas en el sitio web deben tener el texto alternativo adecuado para ser accesibles.
+
+
+
+Cronograma:
+Hora 1: Recopilar ideas de contenido y diseño, crear wireframes y maquetas.
+
+Horas 2-3: Desarrollar la estructura HTML y el estilo CSS, realizar pruebas en diferentes dispositivos y navegadores.
+
+Hora 4: Finalizar el diseño y el contenido, realizar las revisiones necesarias y optimizar el rendimiento.
+
+Hora 5: Lanzar el sitio web y compartirlo con otros en la sesión de preguntas y respuestas para obtener comentarios y realizar los ajustes finales.
+
+
+
+Preguntas frecuentes:
+1. ¿Puedo usar estos proyectos finales en mis entrevistas de trabajo?
+
+¡Sí! Ese es el objetivo de estos proyectos finales. A diferencia de los proyectos de curso, que incluyen el código de la solución y tutoriales en video, los proyectos finales están pensados para ser completamente tu propio trabajo. Hay más de un millón de estudiantes matriculados en este curso de desarrollo web en todo el mundo. Si añades un proyecto del curso a tu portafolio, es muy probable que tu cliente sepa que proviene de este curso. Los proyectos finales, por otro lado, no tienen código de solución, ni guía, ni especificaciones de diseño. Son puramente de tu creación, así que sin duda pueden considerarse como trabajo propio y añadirse a tu portafolio.
+
+Cuando contrato desarrolladores, siempre les pido un portafolio. Considero que lo que han creado por sí mismos es mucho más importante que la universidad a la que asistieron o si tienen un título en informática. Muchos de mis amigos, directores ejecutivos de multinacionales y startups, están de acuerdo.
+
+2. ¿Qué pasa si no recuerdo cómo hacer algo, aunque haya visto todos los vídeos?
+
+Ver un vídeo a menudo no es suficiente para aprender una habilidad. Por eso, estos proyectos finales son una gran oportunidad para identificar tus puntos débiles. Mientras construyes, te encontrarás atascado o se te olvidará cómo hacer las cosas. ¡Genial! Es entonces el momento de revisar lecciones anteriores o documentación en línea para llenar tus vacíos de conocimiento.

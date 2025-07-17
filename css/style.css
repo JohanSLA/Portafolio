@@ -1,0 +1,53 @@
+/* Estilos generales para líneas */
+    .corner-line {
+      position: fixed;
+      background: linear-gradient(to right, #d4af37, #888);
+      z-index: 10;
+    }
+
+
+    /* === Esquina superior izquierda === */
+    .top-left-h {
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 200px;
+      border-top-left-radius: 10px;
+      clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    }
+
+    .top-left-v {
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 200px;
+      background: linear-gradient(to bottom, #d4af37, #888);
+      border-top-left-radius: 10px;
+      clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    }
+
+
+    /* === Esquina inferior derecha === */
+    .bottom-right-h {
+      bottom: 0;
+      right: 0;
+      height: 20px;
+      width: 200px;
+      background: linear-gradient(to left, #d4af37, #888);
+      border-bottom-right-radius: 10px;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 100px calc(100% - 100px));
+
+      
+
+
+    }
+
+    .bottom-right-v {
+      bottom: 0;
+      right: 0;
+      width: 20px;
+      height: 200px;
+      background: linear-gradient(to top, #d4af37, #888);
+      border-bottom-right-radius: 10px;
+      clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    }
