@@ -1,53 +1,113 @@
 /* Estilos generales para líneas */
-    .corner-line {
-      position: fixed;
-      background: linear-gradient(to right, #d4af37, #888);
-      z-index: 10;
-    }
+.corner-line {
+  position: fixed;
+  background: linear-gradient(to right, #d4af37, #888);
+  z-index: 10;
+}
+
+/* === Esquina superior izquierda === */
+.top-left-h {
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 15%;
+  border-top-left-radius: 10px;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.top-left-v {
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 200px;
+  background: linear-gradient(to bottom, #d4af37, #888);
+  border-top-left-radius: 10px;
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+/* === Esquina inferior derecha === */
+.bottom-right-h {
+  bottom: 0;
+  right: 0;
+  height: 20px;
+  width: 15%;
+  background: linear-gradient(to left, #d4af37, #888);
+  border-bottom-right-radius: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 100px calc(100% - 100px));
+}
+
+.bottom-right-v {
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 200px;
+  background: linear-gradient(to top, #d4af37, #888);
+  border-bottom-right-radius: 10px;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.foto-perfil {
+  object-fit: scale-down;
+  border-radius: 50%;
+  background-color: azure;
+}
+
+.contenido-texto {
+  border-image: linear-gradient(to top, #d4af37, #888) 1;
+}
 
 
-    /* === Esquina superior izquierda === */
-    .top-left-h {
-      top: 0;
-      left: 0;
-      height: 20px;
-      width: 200px;
-      border-top-left-radius: 10px;
-      clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-    }
 
-    .top-left-v {
-      top: 0;
-      left: 0;
-      width: 20px;
-      height: 200px;
-      background: linear-gradient(to bottom, #d4af37, #888);
-      border-top-left-radius: 10px;
-      clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-    }
+.contenido-texto-proyecto {
+  color: white;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 15px;  /* Esquina redondeada */
+}
 
+/* Línea superior con corte desde la punta hacia adentro y redondeado */
+.contenido-texto-proyecto::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 40%;
+  background: linear-gradient(to right, #d4af37, #888);
+  clip-path: polygon(
+    0 0, 
+    100% 0, 
+    calc(100% - 30px) 30px, 
+    0 30px
+  );
+  border-top-left-radius: 15px;
+}
 
-    /* === Esquina inferior derecha === */
-    .bottom-right-h {
-      bottom: 0;
-      right: 0;
-      height: 20px;
-      width: 200px;
-      background: linear-gradient(to left, #d4af37, #888);
-      border-bottom-right-radius: 10px;
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 100px calc(100% - 100px));
+/* Línea izquierda con corte en diagonal y unión redondeada */
+.contenido-texto-proyecto::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 45%;
+  background: linear-gradient(to bottom, #d4af37, #888);
+  clip-path: polygon(
+    0 0, 
+    30px 0, 
+    30px calc(100% - 30px), 
+    0 100%
+  );
+  border-top-left-radius: 15px;
+}
 
-      
+ul{
+  text-align: start;
+  list-style-type: none;
+}
 
-
-    }
-
-    .bottom-right-v {
-      bottom: 0;
-      right: 0;
-      width: 20px;
-      height: 200px;
-      background: linear-gradient(to top, #d4af37, #888);
-      border-bottom-right-radius: 10px;
-      clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
-    }
+li{
+  padding-top: 8px;
+  color: white;
+}
